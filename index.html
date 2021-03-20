@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/styles.css">
     <script src="assets/js/main.js"></script>
 
@@ -21,38 +23,43 @@
             </ul>
         </nav>
     </header>
-    <section>
-        <div>
-            <h1>Los mejores stickers, polaroids y posters</h1>
-            <h2>Personalizados y de plantilla</h2>
-            <a href="">Hacé tu pedido</a>
-        </div>
+    <section id="hero">
+        <h1>Los mejores stickers, polaroids y posters</h1>
+        <h2>Personalizados y de plantilla</h2>
+        <a href="">Hacé tu pedido</a>
     </section>
-    <section>
+    <section id="tresarticles">
         <article>
-            <img src="" alt="">
+            <img src="assets/images/sticker.svg" alt="sticker icono">
             <h2>Stickers</h2>
             <p>En papel adhesivo y vinilo. Podés pedirlos personalizados</p>
         </article>
         <article>
-            <img src="" alt="">
+            <img src="assets/images/polaroid.svg" alt="Fotos estilo polaroid icono">
             <h2>Fotos estilo polaroid</h2>
             <p>Podés mandarnos tus fotos o encargarnos un pack temático</p>
         </article>
         <article>
-            <img src="" alt="">
+            <img src="assets/images/poster.svg" alt="Posters icono">
             <h2>Posters</h2>
             <p>En A4 y A3. Envianos tus fotos en alta calidad y ¡Listo!</p>
         </article>
     </section>
-    <section>
+    <section id="CTA">
         <h1>¡Seguinos en nuestras redes sociales!</h1>
         <h2>Ayudanos a crecer</h2>
-        <a href=""><img src="assets/images/instagram.svg" alt="icono instagram">Instagram</a>
-        <a href=""><img src="assets/images/facebook.svg" alt="icono facebook">Facebook</a>
+        <div>
+            <div class="botonesCTA">
+                <a href=""><img class="whitefilter" src="assets/images/instagram.svg"
+                        alt="icono instagram">Instagram</a>
+            </div>
+            <div class="botonesCTA">
+                <a href=""><img class="whitefilter" src="assets/images/facebook.svg" alt="icono facebook">Facebook</a>
+            </div>
+        </div>
     </section>
     <section>
-        <h2>¿Tenés dudas? Consultános</h2>
+        <h2 id="dudas">¿Tenés dudas? Consultános</h2>
         <form>
             <input type="text" placeholder="Nombre">
             <input type="email" placeholder="Email">
@@ -67,22 +74,36 @@
             <input type="submit" value="Enviar">
         </form>
     </section>
-    <footer>
-        <section>
-            <img src="assets/images/logo-camica.png" alt="Camica Logo">
-            <p>Copyright Camica Dsn 2021</p>
-        </section>
-        <section>
-            <ul>
-                <li><a href="">Productos</a></li>
-                <li><a href="">Contactános</a></li>
-            </ul>
-        </section>
-        <section>
-            <a href=""><img src="assets/images/instagram.svg" alt="icono instagram">Instagram</a>
-            <a href=""><img src="assets/images/facebook.svg" alt="icono facebook">Facebook</a>
-        </section>
-    </footer>
+    <div id="footer0">
+        <footer>
+            <div id="footer1">
+                <section>
+                    <img src="assets/images/logo-camica.png" alt="Camica Logo" id="logofooter">
+                    <p>Copyright Camica Dsn 2021</p>
+                </section>
+                <section>
+                    <nav>
+                        <ul>
+                            <li><a href="">Productos</a></li>
+                            <li><a href="">Contactános</a></li>
+                        </ul>
+                    </nav>
+                </section>
+                <section>
+                    <a href="">
+                        <div>
+                            <img src="assets/images/instagram.svg" alt="icono instagram">Instagram
+                        </div>
+                    </a>
+                    <a href="">
+                        <div>
+                            <img src="assets/images/facebook.svg" alt="icono facebook">Facebook
+                        </div>
+                    </a>
+                </section>
+            </div>
+        </footer>
+    </div>
 </body>
 
 </html>

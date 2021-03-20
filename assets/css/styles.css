@@ -46,3 +46,238 @@ table {
 }
 /* finish css reset*/
 
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #ebd4ff;
+}
+
+ul, li{
+    display: inline-flex;
+}
+a img{
+    max-height: 2em;
+}
+
+h2{
+    width: 100%;
+    font-weight: 500;
+    font-size: 1.2em;
+    margin: 0.5em;
+}
+
+ /*header*/
+nav img{
+    max-height: 8em;
+}
+
+header li:nth-child(2){
+    font-weight: 500;
+    margin-left: 1.5em;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    font-size: 1.2em;
+    align-items: center;
+    max-width: 100%;
+    background-color: #fff;
+    flex-wrap: wrap;
+}
+
+header nav{
+    width: 100%;
+}
+
+header ul{
+    float: right;
+    margin: 3.6em 2em 0 0;
+}
+
+header img{
+    margin-left: 1em;
+}
+
+/* finish header */
+
+
+/* hero */
+
+
+
+/* finish hero */
+
+/* 3 articles */
+
+#tresarticles{
+    display: flex;
+    justify-content: space-around;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+article{
+    max-width: 33%;
+    display: inline-block;
+    text-align: center;
+    padding: 2em 0.5em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 2em 1em;
+    border-radius: 1.5em;
+    background-color: white;
+}
+
+article img{
+    height: 3em;
+}
+
+article p{
+    margin: 0.5em;
+}
+
+/* finish 3 articles */
+
+/* CTA */
+
+#CTA{
+    max-width: 100%;
+    background-color: #ff3a0ecc;
+    text-align: center;
+    padding: 2.5em;
+    margin: 2em auto;
+}
+
+#CTA h1, #CTA h2, #CTA a{
+    color: white;
+}
+
+.whitefilter{
+    filter: invert(100%) sepia(2%) saturate(0%) hue-rotate(331deg) brightness(117%) contrast(100%);
+}
+
+#CTA h1{
+    font-weight: 700;
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+
+#CTA a{
+    margin: 1em;
+    font-weight: 500;
+}
+
+#CTA img{
+    padding: 0 1em; 
+    vertical-align: middle;
+}
+
+#CTA h2{
+    margin: 1em;
+}
+
+.botonesCTA{
+    padding: 1em 2em 1em 1em; 
+    display: inline-flex;
+    background-color: #7611c5;
+    border-radius: 1em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 0.5em;
+}
+
+/* finish CTA */
+
+/* form */
+
+form{
+    width: 90%;
+    margin: 0 auto 5em auto;
+}
+
+input::placeholder {
+    font-size: 1.1em;
+}
+#dudas{
+    margin: 0;
+    width: 90%;
+    margin: 1em auto;
+}
+
+input{
+    width: 100%;
+    padding: 1em;
+    margin: 1em 0;
+    border-radius: 0.5em;
+    background-color: #f3e0ff;
+}
+
+input[type="radio"] {
+    margin: 0;
+}
+
+input[type="submit"]{
+    width: 12em;
+    float: right;
+    background-color: #7611c5;
+    border-radius: 1em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: white;
+    font-weight: 500;
+}
+
+textarea{
+    width: 100%;
+    height: 8em;
+    resize: vertical;
+    margin: 1em 0;
+    font-size: 1.1em;
+    background-color: #f3e0ff;
+}
+
+textarea::placeholder{
+    font-size: 1.1em;
+}
+
+/* finish form */
+
+/* Footer */
+
+#footer0{
+    background-color: white;
+}
+footer{
+    width: 90%;
+    margin: 0 auto;
+}
+
+#footer1{
+    display: inline-flex;
+    width: 100%;
+}
+
+footer section{
+    width: 33%;
+    padding: 1em;
+}
+
+footer ul, li{
+    display: block;
+}
+
+footer li{
+    margin: 1em;
+}
+
+footer img{
+    vertical-align: middle;
+    margin-right: 1em;
+}
+
+#footer1 div{
+    margin: 1em;
+}
+
+#logofooter{
+    max-height: 7em;
+}
+
+/* finish footer */
