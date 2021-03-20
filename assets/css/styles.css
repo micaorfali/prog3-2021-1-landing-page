@@ -46,9 +46,14 @@ table {
 }
 /* finish css reset*/
 
+html{
+    margin: auto;
+}
+
 body{
     font-family: 'Roboto', sans-serif;
     background-color: #ebd4ff;
+    
 }
 
 ul, li{
@@ -66,8 +71,10 @@ h2{
 }
 
  /*header*/
+
 nav img{
-    max-height: 8em;
+    width: 7em;
+    
 }
 
 header li:nth-child(2){
@@ -85,17 +92,28 @@ header{
     flex-wrap: wrap;
 }
 
+header div{
+    display: inline-block;
+    overflow: hidden;
+    margin: 1em;
+}
+
 header nav{
     width: 100%;
 }
 
 header ul{
     float: right;
-    margin: 3.6em 2em 0 0;
 }
 
 header img{
     margin-left: 1em;
+}
+
+#menu{
+    margin: 2em;
+    vertical-align: super;
+    float: right;
 }
 
 /* finish header */
@@ -103,6 +121,9 @@ header img{
 
 /* hero */
 
+#hero{
+    overflow: hidden;
+}
 
 
 /* finish hero */
@@ -277,7 +298,11 @@ footer img{
 }
 
 #logofooter{
-    max-height: 7em;
+    height: 2em;
+}
+
+#logofooter{
+    display: inline-block;
 }
 
 /* finish footer */
