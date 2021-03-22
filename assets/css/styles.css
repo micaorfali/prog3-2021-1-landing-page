@@ -74,8 +74,9 @@ h2{
 
 nav img{
     width: 7em;
-    
 }
+
+
 
 header li:nth-child(2){
     font-weight: 500;
@@ -90,6 +91,12 @@ header{
     max-width: 100%;
     background-color: #fff;
     flex-wrap: wrap;
+/*
+    overflow: hidden;
+    position: fixed; 
+    top: 0; 
+    width: 100%; */
+      
 }
 
 header div{
@@ -121,10 +128,53 @@ header img{
 
 /* hero */
 
-#hero{
+#hero-image{
     overflow: hidden;
 }
 
+.hero-image {
+    background-image: url("../images/camicahero.png");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+  }
+  
+  .hero-text {
+    text-align: center;
+    position: absolute;
+    top: 40vh;
+    left: 5vw;
+  }
+
+  .hero-text div{
+      width: 40vw;
+  }
+
+  .hero-text h1{
+      font-size: 3em;
+      font-weight: 700;
+  }
+
+  .hero-text h2{
+      font-size: 1.3em;
+      margin: 1.5em 0;
+  }
+
+  .hero-text a{
+      font-size: 1.3em;
+    text-align: center;
+    padding: 1em 2em; 
+    display: inline-flex;
+    background-color: #7611c5;
+    border-radius: 1em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 0.5em;
+    color: white!important;
+    font-weight: 500;
+  }
 
 /* finish hero */
 
@@ -146,6 +196,10 @@ article{
     margin: 2em 1em;
     border-radius: 1.5em;
     background-color: white;
+}
+
+article:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 article img{
@@ -205,6 +259,10 @@ article p{
     margin: 0.5em;
 }
 
+.botonesCTA:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 /* finish CTA */
 
 /* form */
@@ -223,7 +281,7 @@ input::placeholder {
     margin: 1em auto;
 }
 
-input{
+input, #genero{
     width: 100%;
     padding: 1em;
     margin: 1em 0;
@@ -243,6 +301,10 @@ input[type="submit"]{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     color: white;
     font-weight: 500;
+}
+
+input[type="submit"]:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  
 }
 
 textarea{

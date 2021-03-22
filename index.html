@@ -28,17 +28,16 @@
         </nav>
     </header>
 
-    <section id="hero">
-        <div>
-            <img> 
-                <div>
-                    <h1>Los mejores stickers, polaroids y posters</h1>
-                    <h2>Personalizados y de plantilla</h2>
-                    <a href="">Hacé tu pedido</a>
-                </div>
+    <section class="hero-image">
+        <div class="hero-text">
+            <div>
+                <h1>Los mejores stickers, polaroids y posters</h1>
+            </div>
+            <h2>Personalizados y de plantilla</h2>
+            <a href="">Hacé tu pedido</a>
         </div>
     </section>
-    
+
     <section id="tresarticles">
         <article>
             <img src="assets/images/sticker.svg" alt="sticker icono">
@@ -76,12 +75,12 @@
             <input type="text" placeholder="Nombre">
             <input type="email" placeholder="Email">
             <label>Género</label>
-            <input type="radio" value="femenino">
-            <label>Femenino</label>
-            <input type="radio" value="masculino">
-            <label>Masculino</label>
-            <input type="radio" value="otro">
-            <label>Otro</label>
+            <select id="genero" name="genero">
+                <option value="elegir" selected hidden>Elegir</option>
+                <option value="femenino">Femenino</option>
+                <option value="masculino">Masculino</option>
+                <option value="otro">Otro</option>
+            </select>
             <textarea placeholder="Tu mensaje..."></textarea>
             <input type="submit" value="Enviar">
         </form>
