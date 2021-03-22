@@ -133,7 +133,7 @@ header img{
 }
 
 .hero-image {
-    background-image: url("../images/camicahero.png");
+    background-image: url("../images/hero-optimizado.jpg");
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -335,10 +335,11 @@ footer{
 #footer1{
     display: inline-flex;
     width: 100%;
+    justify-content: space-between;
 }
 
 footer section{
-    width: 33%;
+    width: 20%;
     padding: 1em;
 }
 
