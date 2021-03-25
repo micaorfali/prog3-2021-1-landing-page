@@ -280,9 +280,14 @@ input::placeholder {
     width: 90%;
     margin: 1em auto;
 }
-
+input{
+    width: 90%;
+}
+#genero{
+ width: 30%;
+ margin: 1em!important;
+}
 input, #genero{
-    width: 100%;
     padding: 1em;
     margin: 1em 0;
     border-radius: 0.5em;
@@ -361,7 +366,7 @@ footer img{
 }
 
 #logofooter{
-    height: 2em;
+    width: 6em;
 }
 
 #logofooter{
@@ -369,3 +374,71 @@ footer img{
 }
 
 /* finish footer */
+
+
+@media (max-width: 768px){
+    #menu{
+        overflow: hidden;
+        margin: 1em;
+        font-size:1em;
+    }
+    nav img{
+        width: 4em;
+    }
+    .hero-text{
+        width: 50%;
+    }
+    .hero-text h1{
+        font-size: 1.8em;
+    }
+    .hero-text h2{
+        font-size: 1.2em;
+        margin: 1em 0;
+        width: 75%;
+    }
+    .hero-text a{
+        padding: 0.75em 1.2em;
+        margin: 0 2em 0 0;
+    }
+    #tresarticles{
+        display: block;
+        overflow: hidden;
+    }
+    article{
+        max-width: 90%;
+        width: 90%;
+        display: block;
+    }
+    #CTA{
+        overflow: hidden;
+    }
+    .botonesCTA{
+        padding: 0.5em 1em 0.5em 0.5em;
+    }
+    form{
+        width: 90%;
+        margin: 0 auto 6em auto;
+    }
+    #genero{
+        width: 50%;
+    }
+    input[type="submit"]{
+        font-size: 1.1em;
+        width: 10em;
+    }
+    footer section{
+        width: 100%;
+        padding: 0.5em 0;
+    }
+    #footer1{
+        display: block;
+    }
+    #footer1 div:first-child{
+        margin: 1em 0;
+    }
+    footer li{
+        margin: 1em 0;
+    }
+
+
+}
