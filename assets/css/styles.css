@@ -439,6 +439,11 @@ footer img{
     footer li{
         margin: 1em 0;
     }
-
+    @media (max-width: 425px){
+        body{
+            font-size: 0.85em;
+        }
+        
+    }
 
 }
