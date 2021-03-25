@@ -48,6 +48,7 @@ table {
 
 html{
     margin: auto;
+    scroll-behavior: smooth;
 }
 
 body{
@@ -313,12 +314,17 @@ input[type="submit"]:hover{
 }
 
 textarea{
-    width: 100%;
+    width: 90%;
     height: 8em;
     resize: vertical;
     margin: 1em 0;
     font-size: 1.1em;
     background-color: #f3e0ff;
+    border-radius: 0.5em;
+    border: 1px solid black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9em;
+    padding: 1em;
 }
 
 textarea::placeholder{
