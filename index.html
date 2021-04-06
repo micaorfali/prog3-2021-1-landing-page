@@ -59,17 +59,18 @@
         <h2>Ayudanos a crecer</h2>
         <div>
             <div class="botonesCTA">
-                <a href="https://www.instagram.com/camica.dsn/"><img class="whitefilter" src="assets/images/instagram.svg"
-                        alt="icono instagram">Instagram</a>
+                <a href="https://www.instagram.com/camica.dsn/"><img class="whitefilter"
+                        src="assets/images/instagram.svg" alt="icono instagram">Instagram</a>
             </div>
             <div class="botonesCTA">
-                <a href="https://www.facebook.com/camicadsn"><img class="whitefilter" src="assets/images/facebook.svg" alt="icono facebook">Facebook</a>
+                <a href="https://www.facebook.com/camicadsn"><img class="whitefilter" src="assets/images/facebook.svg"
+                        alt="icono facebook">Facebook</a>
             </div>
         </div>
     </section>
 
     <section>
-        <h2 id="dudas">¿Tenés dudas? Consultános</h2>
+        <h2 id="dudas">Dejanos tu comentario!</h2>
         <form id="mainform" action="https://prog-3-leads-api-rest.vercel.app/leads" method="POST">
             <input type="text" name="nombre" placeholder="Nombre">
             <input type="email" name="email" placeholder="Email"><br>
@@ -84,6 +85,15 @@
             <input type="submit" value="Enviar">
         </form>
         <p id="respuesta_form"></p>
+    </section>
+
+    <section id="comentarios">
+        <h2>Comentarios de nuestros usuarios:</h2>
+        <div id="contenedorcomentarios">
+        <div id="listado">
+            
+        </div>
+    </div>
     </section>
 
     <div id="footer0">
@@ -120,8 +130,13 @@
     </div>
 </body>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.2/jquery.validate.min.js" integrity="sha512-UdIMMlVx0HEynClOIFSyOrPggomfhBKJE28LKl8yR3ghkgugPnG6iLfRfHwushZl1MOPSY6TsuBDGPK2X4zYKg==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.2/jquery.validate.min.js"
+    integrity="sha512-UdIMMlVx0HEynClOIFSyOrPggomfhBKJE28LKl8yR3ghkgugPnG6iLfRfHwushZl1MOPSY6TsuBDGPK2X4zYKg=="
+    crossorigin="anonymous"></script>
 
 <script src="assets/js/main.js"></script>
+
 </html>

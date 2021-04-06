@@ -55,17 +55,19 @@ $(document).ready(function () {
         }
     });
 
-    const loadLeads = () =>{
+    const loadLeads = () => {
         $.ajax({
             url: 'https://prog-3-leads-api-rest.vercel.app/leads',
             type: 'GET',
             success: function (response) {
                 console.log("get success"),
-
+                
+                response.forEach(element =>{
+                    $('#listado').append('<ul>' + ' <li>' + element.nombre + ' - </li>' + '<li>' + element.sexo + ' - </li>' +'<li>' + element.comentarios + '</li> ' + '</ul>')
+                });
                 console.log(response)
-                //$('#respuesta_form').html('Gracias ' + response.nombre + ' por tu mensaje');
             }
         })
     }
-
+    loadLeads();
 });
