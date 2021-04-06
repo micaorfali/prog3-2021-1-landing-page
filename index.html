@@ -72,9 +72,9 @@
     <section>
         <h2 id="dudas">Dejanos tu comentario!</h2>
         <form id="mainform" action="https://prog-3-leads-api-rest.vercel.app/leads" method="POST">
-            <input type="text" name="nombre" placeholder="Nombre">
+            <input type="text" name="nombre" placeholder="Nombre"><br>
             <input type="email" name="email" placeholder="Email"><br>
-            <label>Género</label>
+            <label id="genero">Género</label>
             <select id="sexo" name="sexo">
                 <option value="elegir" selected hidden>Elegir</option>
                 <option value="femenino">Femenino</option>
@@ -100,7 +100,7 @@
         <footer>
             <div id="footer1">
                 <section>
-                    <div id="logofooter">
+                    <div>
                         <img src="assets/images/logocamica.svg" alt="Camica Logo" id="logofooter">
                     </div>
                     <p>Copyright Camica Dsn 2021</p>

@@ -71,6 +71,11 @@ h2{
     margin: 0.5em 0;
 }
 
+label{
+    display: block;
+    color: red;
+}
+
  /*header*/
 
 nav img{
@@ -286,17 +291,17 @@ input{
 }
 #sexo{
  width: 30%;
- margin: 1em!important;
+ margin: 1em 0!important;
+ border: 2px solid black;
+}
+#genero{
+    color: black;
 }
 input, #sexo{
     padding: 1em;
     margin: 1em 0;
     border-radius: 0.5em;
     background-color: #f3e0ff;
-}
-
-input[type="radio"] {
-    margin: 0;
 }
 
 input[type="submit"]{
@@ -325,6 +330,7 @@ textarea{
     font-family: 'Roboto', sans-serif;
     font-size: 0.9em;
     padding: 1em;
+    border: 2px solid black;
 }
 
 textarea::placeholder{
@@ -421,9 +427,6 @@ footer img{
 
 #logofooter{
     width: 6em;
-}
-
-#logofooter{
     display: inline-block;
 }
 
