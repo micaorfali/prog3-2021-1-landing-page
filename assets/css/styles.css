@@ -340,7 +340,7 @@ textarea::placeholder{
 /* empieza comentarios */
 #comentarios{
     background-color: #fbbb9c;
-    
+    overflow: hidden;
 }
 
 #comentarios h2{
