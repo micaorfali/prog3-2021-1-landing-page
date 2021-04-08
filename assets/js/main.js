@@ -50,6 +50,8 @@ $(document).ready(function () {
                 success: function (response) {
                     console.log(response)
                     $('#respuesta_form').html('Gracias ' + response.nombre + ' por tu mensaje');
+                    $('#listado').html('');
+                    loadLeads();
                 }
             })
         }
@@ -61,7 +63,7 @@ $(document).ready(function () {
             type: 'GET',
             success: function (response) {
                 console.log("get success"),
-                
+                $('#listado').html('');
                 response.forEach(element =>{
                     $('#listado').append('<ul>' + ' <li>' + element.nombre + ' - </li>' + '<li>' + element.sexo + ' - </li>' +'<li>' + element.comentarios + '</li> ' + '</ul>')
                 });
